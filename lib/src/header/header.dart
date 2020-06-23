@@ -749,11 +749,11 @@ class ClassicalHeaderWidgetState extends State<ClassicalHeaderWidget>
     return isVertical
         ? <Widget>[
             Expanded(
-              flex: 2,
+              flex: 3,
               child: Container(
                 alignment: Alignment.centerRight,
                 padding: EdgeInsets.only(
-                  right: 10.0,
+                  right: 0.0, // 10
                 ),
                 child: (widget.refreshState == RefreshMode.refresh ||
                             widget.refreshState == RefreshMode.armed) &&
